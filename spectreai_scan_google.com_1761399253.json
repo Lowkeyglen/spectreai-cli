@@ -1,0 +1,53 @@
+{
+  "target": "google.com",
+  "timestamp": "2025-10-25T13:34:02.402032",
+  "version": "SpectreAI v1.0",
+  "creator": "cyberghost-ai",
+  "findings": [
+    {
+      "type": "open_port",
+      "port": 80,
+      "service": "http",
+      "risk": "MEDIUM",
+      "description": "Unencrypted web service",
+      "recommendation": "Enable HTTPS and redirect HTTP to HTTPS",
+      "category": "web"
+    },
+    {
+      "type": "open_port",
+      "port": 443,
+      "service": "https",
+      "risk": "LOW",
+      "description": "Standard service https",
+      "recommendation": "",
+      "category": "general"
+    },
+    {
+      "type": "web_service",
+      "port": 80,
+      "status_code": 301,
+      "server": "gws",
+      "risk": "LOW",
+      "description": "Web service running gws",
+      "category": "web"
+    },
+    {
+      "type": "security_headers",
+      "port": 80,
+      "risk": "MEDIUM",
+      "description": "Missing security headers: Strict-Transport-Security, X-Content-Type-Options, Content-Security-Policy",
+      "recommendation": "Implement missing security headers",
+      "category": "security"
+    }
+  ],
+  "risk_score": 50.0,
+  "summary": {
+    "total_findings": 4,
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 2,
+    "open_ports": 2,
+    "web_services": 1,
+    "security_issues": 1
+  }
+}

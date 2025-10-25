@@ -1,0 +1,38 @@
+======================================================================
+                SPECTREAI SECURITY ASSESSMENT REPORT
+======================================================================
+
+TARGET: google.com
+SCAN DATE: 2025-10-25T13:34:02.402032
+RISK SCORE: 50.0%
+VERSION: SpectreAI v1.0
+CREATOR: cyberghost-ai
+
+EXECUTIVE SUMMARY:
+----------------------------------------------------------------------
+Total Findings: 4
+High Risk Issues: 0
+Medium Risk Issues: 2
+Low Risk Issues: 2
+Open Ports: 2
+Web Services: 1
+Security Issues: 1
+
+DETAILED FINDINGS:
+----------------------------------------------------------------------
+
+MEDIUM RISK FINDINGS:
+--------------------------------------------------
+• Unencrypted web service
+  Recommendation: Enable HTTPS and redirect HTTP to HTTPS
+
+• Missing security headers: Strict-Transport-Security, X-Content-Type-Options, Content-Security-Policy
+  Recommendation: Implement missing security headers
+
+
+LOW RISK FINDINGS:
+--------------------------------------------------
+• Standard service https
+
+• Web service running gws
+
