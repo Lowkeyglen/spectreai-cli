@@ -1,8 +1,17 @@
 # 🕵️‍♂️ SpectreAI - Security Reconnaissance Tool
+# SpectreAI CLI
+
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Lowkeyglen/spectreai-cli)](https://github.com/Lowkeyglen/spectreai-cli/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Lowkeyglen/spectreai-cli.svg)](https://github.com/Lowkeyglen/spectreai-cli/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Lowkeyglen/spectreai-cli.svg)](https://github.com/Lowkeyglen/spectreai-cli/network)
+[![Made with ❤️ by Lowkeyglen](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red.svg)](https://github.com/Lowkeyglen)
 
 ![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)
+A lightweight command-line interface for SpectreAI — automate scans, analyze data, and manage AI workflows directly from your terminal.
 
 **Zero Dependencies • Pure Python Power • Professional Security Scanning**
 
